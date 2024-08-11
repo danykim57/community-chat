@@ -1,0 +1,9 @@
+spring:
+  application:
+    name:  community-api
+
+jwt:
+  issuer: test1234@gmail.com
+  secret: Y29tbXVuaXR5IHdlYiBzZXJ2aWNlIHNlY3JldCBrZXk=
+  access-token-expire-time: 300
+  refresh-token-expire-time: 7200
